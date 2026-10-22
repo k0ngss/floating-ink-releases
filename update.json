@@ -1,5 +1,18 @@
 {
-  "version": "0.1.0",
-  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.0/FloatingInk-Setup.exe",
-  "sha256": "3606069c26e60f8014be45e016ba70338596949cb69c5b18648db704fe833364"
+  "version": "0.1.1",
+  "channel": "stable",
+  "notes": [
+    "改用 NSIS 中文安装向导，支持选择安装目录、桌面快捷方式和标准卸载。",
+    "覆盖升级记住原安装目录，保留阅读设置、进度和小说文件。",
+    "启动时轻量检查版本，仅显示新版入口，不自动下载或打断阅读。",
+    "更新窗口显示版本说明，支持下载并安装、稍后提醒、跳过此版本。",
+    "下载显示进度并可取消，流式下载，校验文件大小与 SHA-256。",
+    "更新安装器等待旧进程完全退出后再替换文件，兼容 0.1.0 客户端升级。"
+  ],
+  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.1",
+  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.1/FloatingInk-Setup-0.1.1.exe",
+  "installer_sha256": "7650f53c9c2b299d66c6035ec90022c71e135a4e49ec0e874f34ce0fb98a95e6",
+  "installer_size": 303671,
+  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.1/FloatingInk-Setup-0.1.1.exe",
+  "sha256": "7650f53c9c2b299d66c6035ec90022c71e135a4e49ec0e874f34ce0fb98a95e6"
 }
