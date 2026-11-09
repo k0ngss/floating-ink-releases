@@ -1,17 +1,17 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "channel": "stable",
   "notes": [
-    "调整阅读窗口时，右键正文打开模式、字号和取色面板。面板可通过 Esc 或点击外部收起，正文预览中按 Enter 开始阅读。",
-    "打开阅读设置时保留正文窗口、当前页和阅读状态。字号及已有背景的模式切换即时更新正文，关闭设置即可继续阅读。",
-    "阅读中右键正文打开目录、书签和书内搜索面板，可快速加书签、返回跳转前位置或调整阅读窗。开启鼠标穿透时可用 Ctrl+Alt+G 唤出。",
-    "修复导入小说时书架被收起的问题，改善文件选择窗口的归属、焦点和取消反馈，统一阅读工具及确认窗口的样式。",
-    "减少阅读窗口拖动和缩放时的重复重绘，优化大文本读取、分页缓存与带原书备份的内存占用。"
+    "阅读外观新增字体下拉框，可直接选择系统已安装字体，并与“排版…”中的当前字体同步。",
+    "阅读外观可直接调整行距增量（0–64 px，每次 2 px）和字间距（0–32 px，每次 1 px）；“排版…”支持精确输入、恢复默认和取消草稿。",
+    "切换字体、字号和间距时即时重排、自动保存，保留当前原文位置；透明阅读和替换阅读共用排版设置。",
+    "阅读方案与本地备份恢复支持保存字间距，兼容已有方案，旧方案的字间距默认为 0。",
+    "调整设置页的紧凑布局，字体、字号与间距选项在不同窗口尺寸及 100%–200% 显示缩放下均可使用。"
   ],
-  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.4",
-  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.4/FloatingInk-Setup-0.1.4.exe",
-  "installer_sha256": "43a046e930c5070e142da5bec47c188d7753006a755cfac5adccad691e882b7a",
-  "installer_size": 513447,
-  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.4/FloatingInk-Setup-0.1.4.exe",
-  "sha256": "43a046e930c5070e142da5bec47c188d7753006a755cfac5adccad691e882b7a"
+  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.5",
+  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.5/FloatingInk-Setup-0.1.5.exe",
+  "installer_sha256": "5d270a931dac3f426b5a06ca4da11b30bcfb4d292c1e198d12c3d8cd457152c2",
+  "installer_size": 514789,
+  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.5/FloatingInk-Setup-0.1.5.exe",
+  "sha256": "5d270a931dac3f426b5a06ca4da11b30bcfb4d292c1e198d12c3d8cd457152c2"
 }
