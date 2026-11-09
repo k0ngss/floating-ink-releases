@@ -1,17 +1,16 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "channel": "stable",
   "notes": [
-    "阅读外观新增字体下拉框，可直接选择系统已安装字体，并与“排版…”中的当前字体同步。",
-    "阅读外观可直接调整行距增量（0–64 px，每次 2 px）和字间距（0–32 px，每次 1 px）；“排版…”支持精确输入、恢复默认和取消草稿。",
-    "切换字体、字号和间距时即时重排、自动保存，保留当前原文位置；透明阅读和替换阅读共用排版设置。",
-    "阅读方案与本地备份恢复支持保存字间距，兼容已有方案，旧方案的字间距默认为 0。",
-    "调整设置页的紧凑布局，字体、字号与间距选项在不同窗口尺寸及 100%–200% 显示缩放下均可使用。"
+    "启动时检查快捷键是否可用，冲突时弹窗列出具体动作和组合，可立即修改或稍后处理；没有冲突时不弹窗。",
+    "编辑快捷键时，不可用组合、重复组合以及注册或保存失败均通过弹窗提示；失败时保留原有效快捷键和设置，支持继续修改、重试或取消。",
+    "新增可选开机自启动，默认关闭，可在“阅读设置 → 窗口行为”切换，也可在安装向导组件页勾选。开启后在当前用户登录 Windows 时打开书架。",
+    "升级保留已有自启动选择，卸载仅清理指向本安装目录的启动项；自启动由本机管理，不随阅读方案或备份恢复启用。"
   ],
-  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.5",
-  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.5/FloatingInk-Setup-0.1.5.exe",
-  "installer_sha256": "5d270a931dac3f426b5a06ca4da11b30bcfb4d292c1e198d12c3d8cd457152c2",
-  "installer_size": 514789,
-  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.5/FloatingInk-Setup-0.1.5.exe",
-  "sha256": "5d270a931dac3f426b5a06ca4da11b30bcfb4d292c1e198d12c3d8cd457152c2"
+  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.6",
+  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.6/FloatingInk-Setup-0.1.6.exe",
+  "installer_sha256": "91b121e48642e8ae67c3cc7ef0535f4c27d70e5a960d2371eb2aacb1ccdc0be4",
+  "installer_size": 516662,
+  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.6/FloatingInk-Setup-0.1.6.exe",
+  "sha256": "91b121e48642e8ae67c3cc7ef0535f4c27d70e5a960d2371eb2aacb1ccdc0be4"
 }
