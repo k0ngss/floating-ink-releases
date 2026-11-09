@@ -1,20 +1,17 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "channel": "stable",
   "notes": [
-    "统一透明阅读与替换阅读的预览、调整和确认流程；框选替换区域时同时提取背景色与字色，并改善书架和设置布局。",
-    "新增目录导航、书签、跳转返回、字体排版和自定义快捷键；移动后的原书可重新关联，保留经确认的阅读身份与进度。",
-    "新增书内搜索、内容净化和阅读方案；净化只改变显示，原书文件保持不变。",
-    "支持 EPUB2/3 可重排文字书籍，与 TXT 共用目录、书签、搜索和阅读窗口；图片及复杂样式降级，不支持 DRM 和固定版式。",
-    "新增本地备份与恢复，可选带上 TXT/EPUB 原书；恢复完整预检后替换配置，失败回滚，原书写入新目录。",
-    "兼容旧 TXT 书架与进度，升级存储前保留备份；连续翻页合并保存，切书、退出及安装更新前强制保存。",
-    "修复可用窗口高度较小时，书签和快捷键编辑器中的提示与操作区域重叠的问题。",
-    "实机补验仍有未完成项：完整桌面端到端、混合 DPI/多屏、取色焦点、系统快捷键、重新关联人工操作及睡眠唤醒。"
+    "调整阅读窗口时，右键正文打开模式、字号和取色面板。面板可通过 Esc 或点击外部收起，正文预览中按 Enter 开始阅读。",
+    "打开阅读设置时保留正文窗口、当前页和阅读状态。字号及已有背景的模式切换即时更新正文，关闭设置即可继续阅读。",
+    "阅读中右键正文打开目录、书签和书内搜索面板，可快速加书签、返回跳转前位置或调整阅读窗。开启鼠标穿透时可用 Ctrl+Alt+G 唤出。",
+    "修复导入小说时书架被收起的问题，改善文件选择窗口的归属、焦点和取消反馈，统一阅读工具及确认窗口的样式。",
+    "减少阅读窗口拖动和缩放时的重复重绘，优化大文本读取、分页缓存与带原书备份的内存占用。"
   ],
-  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.3",
-  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.3/FloatingInk-Setup-0.1.3.exe",
-  "installer_sha256": "e859b3e60cd1edf3af6b365455573b23e962c125ec89adc6d45caba455cdb462",
-  "installer_size": 476341,
-  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.3/FloatingInk-Setup-0.1.3.exe",
-  "sha256": "e859b3e60cd1edf3af6b365455573b23e962c125ec89adc6d45caba455cdb462"
+  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.4",
+  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.4/FloatingInk-Setup-0.1.4.exe",
+  "installer_sha256": "43a046e930c5070e142da5bec47c188d7753006a755cfac5adccad691e882b7a",
+  "installer_size": 513447,
+  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.4/FloatingInk-Setup-0.1.4.exe",
+  "sha256": "43a046e930c5070e142da5bec47c188d7753006a755cfac5adccad691e882b7a"
 }
