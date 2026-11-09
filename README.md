@@ -2,7 +2,7 @@
 
 把本地 TXT 或文字 EPUB 显示成一层透明文字，也可框选屏幕区域，用纯色背景在原位阅读。简洁书架保留分类、搜索、改名和每本书独立的进度。
 
-**[下载最新 Windows 安装程序](https://github.com/k0ngss/floating-ink-releases/releases/latest/download/FloatingInk-Setup.exe)** · [版本和校验值](https://github.com/k0ngss/floating-ink-releases/releases/latest)
+**[下载 Windows 安装程序 · 0.1.5](https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.5/FloatingInk-Setup-0.1.5.exe)** · [版本和校验值](https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.5)
 
 适用于 Windows 10/11，64 位。无需管理员权限。安装向导可选择目录、桌面快捷方式；升级会记住原目录。
 
