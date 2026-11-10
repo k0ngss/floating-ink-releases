@@ -1,17 +1,17 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "channel": "stable",
   "notes": [
-    "自定义快捷键支持单个按键、左右 Ctrl / Alt / Shift / Win、组合键和鼠标中键，录入、显示、保存与触发保持一致。",
-    "左右修饰键可分别设置；原有通用 Ctrl / Alt / Shift / Win 组合继续兼容任一侧，已有设置与备份可正常使用。",
-    "单独修饰键在松开时触发；与其他按键、鼠标点击或滚轮一起使用时取消单键候选，按住主键不会反复执行动作。",
-    "录入时保护 Enter、Space、Tab、Esc 的重复输入，避免误保存或关闭；对话框、搜索输入和菜单中保留正常操作。",
-    "调整阅读窗口时，边框贴合正文有效区域，可直接拖动正文边框缩放；预览与正式阅读保持相同排版和文字位置，改善高 DPI 与小窗口下的精确定位。"
+    "隐藏阅读窗支持立即隐藏、快速（250 毫秒）、适中（400 毫秒，默认）和缓慢（600 毫秒），可在“阅读设置 → 窗口行为 → 隐藏动画”中选择并自动保存。",
+    "恢复显示始终立即出现，渐隐途中再次触发也会马上恢复；动画结束后完整隐藏窗口，框选取色、返回书架、切书和退出会立即结束动画。",
+    "替换阅读的调整线、遮挡背景和正文使用同一范围，框选后准确覆盖所选区域，修复整屏选区被窗口尺寸限制截小的问题。",
+    "小字号替换正文收齐原文段首空格、全角空格与制表符的显示留白，保留手动首行缩进、原文件和阅读位置。",
+    "调整预览与正式阅读保持相同的正文起点和排版，改善不同字号、DPI 及小选区下的边界对齐。"
   ],
-  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.7",
-  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.7/FloatingInk-Setup-0.1.7.exe",
-  "installer_sha256": "f828e69a1e43aca0d75542a959715095b06fd2a1b0ca2990dc59e9cec744ca59",
-  "installer_size": 522072,
-  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.7/FloatingInk-Setup-0.1.7.exe",
-  "sha256": "f828e69a1e43aca0d75542a959715095b06fd2a1b0ca2990dc59e9cec744ca59"
+  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.8",
+  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.8/FloatingInk-Setup-0.1.8.exe",
+  "installer_sha256": "d88119fb46607600d047453407ce608aca6e570840d25cc1aca4eb3610c945b2",
+  "installer_size": 446059,
+  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.8/FloatingInk-Setup-0.1.8.exe",
+  "sha256": "d88119fb46607600d047453407ce608aca6e570840d25cc1aca4eb3610c945b2"
 }
