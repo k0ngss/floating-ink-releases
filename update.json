@@ -1,16 +1,17 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "channel": "stable",
   "notes": [
-    "启动时检查快捷键是否可用，冲突时弹窗列出具体动作和组合，可立即修改或稍后处理；没有冲突时不弹窗。",
-    "编辑快捷键时，不可用组合、重复组合以及注册或保存失败均通过弹窗提示；失败时保留原有效快捷键和设置，支持继续修改、重试或取消。",
-    "新增可选开机自启动，默认关闭，可在“阅读设置 → 窗口行为”切换，也可在安装向导组件页勾选。开启后在当前用户登录 Windows 时打开书架。",
-    "升级保留已有自启动选择，卸载仅清理指向本安装目录的启动项；自启动由本机管理，不随阅读方案或备份恢复启用。"
+    "自定义快捷键支持单个按键、左右 Ctrl / Alt / Shift / Win、组合键和鼠标中键，录入、显示、保存与触发保持一致。",
+    "左右修饰键可分别设置；原有通用 Ctrl / Alt / Shift / Win 组合继续兼容任一侧，已有设置与备份可正常使用。",
+    "单独修饰键在松开时触发；与其他按键、鼠标点击或滚轮一起使用时取消单键候选，按住主键不会反复执行动作。",
+    "录入时保护 Enter、Space、Tab、Esc 的重复输入，避免误保存或关闭；对话框、搜索输入和菜单中保留正常操作。",
+    "调整阅读窗口时，边框贴合正文有效区域，可直接拖动正文边框缩放；预览与正式阅读保持相同排版和文字位置，改善高 DPI 与小窗口下的精确定位。"
   ],
-  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.6",
-  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.6/FloatingInk-Setup-0.1.6.exe",
-  "installer_sha256": "91b121e48642e8ae67c3cc7ef0535f4c27d70e5a960d2371eb2aacb1ccdc0be4",
-  "installer_size": 516662,
-  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.6/FloatingInk-Setup-0.1.6.exe",
-  "sha256": "91b121e48642e8ae67c3cc7ef0535f4c27d70e5a960d2371eb2aacb1ccdc0be4"
+  "release_url": "https://github.com/k0ngss/floating-ink-releases/releases/tag/v0.1.7",
+  "installer_url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.7/FloatingInk-Setup-0.1.7.exe",
+  "installer_sha256": "f828e69a1e43aca0d75542a959715095b06fd2a1b0ca2990dc59e9cec744ca59",
+  "installer_size": 522072,
+  "url": "https://github.com/k0ngss/floating-ink-releases/releases/download/v0.1.7/FloatingInk-Setup-0.1.7.exe",
+  "sha256": "f828e69a1e43aca0d75542a959715095b06fd2a1b0ca2990dc59e9cec744ca59"
 }
